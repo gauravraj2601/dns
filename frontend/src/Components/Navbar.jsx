@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
         </div>
         <Box width={"60%"} margin="-10px 10px" >
-          <InputGroup borderColor="gray" borderWidth="1px" borderRadius="md">
+          <InputGroup borderColor="gray" borderWidth="1px" borderRadius="md" color={"white"}>
             <InputLeftElement pointerEvents="none">
               <SearchIcon color="gray" />
             </InputLeftElement>
