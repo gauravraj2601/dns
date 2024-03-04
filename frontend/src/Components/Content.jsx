@@ -26,7 +26,7 @@ const Content = () => {
         <div key={ind} style={{width:"100%", height:"150px", display:'flex', flexDirection:"column", justifyContent:"space-between",padding:"40px"}}>
         <div style={{fontSize:"25px", fontWeight:"600", marginTop:"-30px"}}><h1>{el.manag}</h1></div>
         <div style={{fontWeight:"500"}}><p>{el.desc}</p></div>
-        <div style={{fontSize:"20px", fontWeight:"bold", border:"1px solid black", width:"250px", margin:"auto", padding:"3px 0px 4px 0px"}}> <button style={{fontWeight:"500"}} >{el.button}</button> </div>
+        <div style={{fontSize:"20px", fontWeight:"bold", border:"1px solid black", width:"218px", margin:"auto", padding:"3px 0px 4px 0px", marginTop:"15px"}}> <button style={{fontWeight:"500"}} >{el.button}</button> </div>
     </div >
     ))}
     </>
