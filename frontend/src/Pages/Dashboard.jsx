@@ -4,7 +4,7 @@ import Container from '../Components/Container'
 
 const Dashboard = () => {
   return (
-    <div style={{display:"flex", height:"100vh"}}>
+    <div style={{display:"flex", height:"100vh", fontFamily:"inherit"}}>
         <Sidebar />
         <Container />
     </div>
